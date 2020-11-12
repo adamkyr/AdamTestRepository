@@ -1,0 +1,60 @@
+﻿akyriacou@DA-PA220> show device-telemetry stats all
+
+Device Telemetry Statistics:
+    device-health-performance: 
+        last-attempt: Wed Oct 21 15:55:05 EDT 2020
+        last-success: N/A
+        num-of-failed-attempts: 111
+        reason: Invalid Sending File Name
+        status: failed
+    product-usage: 
+        last-attempt: Wed Oct 21 15:55:05 EDT 2020
+        last-success: N/A
+        num-of-failed-attempts: 111
+        reason: Invalid Sending File Name
+        status: failed
+    threat-prevention: 
+        last-attempt: Wed Oct 21 15:55:05 EDT 2020
+        last-success: N/A
+        num-of-failed-attempts: 111
+        reason: Invalid Sending File Name
+        status: failed
+
+akyriacou@DA-PA220> request telemetry-data dump
+
+Exec job enqueued with jobid 4
+4
+
+akyriacou@DA-PA220> debug log-receiver telemetry-triggers counters
+
+Telemetry Trigger Counters
+------------------------------ -----------
+Telemetry Triggers Flagged:    0
+Test Signatures Flagged:       0
+
+akyriacou@DA-PA220> show wildfire telemetry-statistics channel public
+
+Public Cloud Channel
+  Uploaded Telemetry Counters:
+        Uploaded time: Wed Oct 21 12:10:44 2020
+        Files Submitted:              
+        Files Cancelled:              
+
+  Current Telemetry Counters:
+        Files Submitted:              
+        Files Cancelled:              
+
+
+akyriacou@DA-PA220> show wildfire telemetry-statistics channel private
+
+Private Cloud Channel
+  Uploaded Telemetry Counters:
+        Uploaded time: Wed Oct 21 12:10:44 2020
+        Files Submitted:              
+        Files Cancelled:              
+
+  Current Telemetry Counters:
+        Files Submitted:              
+        Files Cancelled:              
+
+
